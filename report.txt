@@ -1,0 +1,14 @@
+Actualizar símbolo R5 de 'Device:R_US' a 'Device:R_US': OK
+Actualizar símbolo U5 de 'pantalla huella:Oled_0.96' a 'pantalla huella:Oled_0.96': OK
+Actualizar símbolo U4 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
+Actualizar símbolo #PWR01 de 'power:GNDREF' a 'power:GNDREF': OK
+Actualizar símbolo R1 de 'Device:R' a 'Device:R': OK
+Actualizar símbolo U4 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
+Actualizar símbolo C1 de 'Device:C' a 'Device:C': OK
+Actualizar símbolo U2 de 'Sensor_Temperature:LM35-D' a 'Sensor_Temperature:LM35-D': OK
+Actualizar símbolo R4 de 'Device:R' a 'Device:R': OK
+Actualizar símbolo U3 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
+Actualizar símbolo R2 de 'Device:R' a 'Device:R': OK
+Actualizar símbolo R3 de 'Device:R' a 'Device:R': OK
+Actualizar símbolo U1 de 'RF_Module:ESP32-S3-WROOM-1' a 'RF_Module:ESP32-S3-WROOM-1': OK
+Actualizar símbolo U3 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK

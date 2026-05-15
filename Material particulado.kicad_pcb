@@ -90,7 +90,7 @@
 	(footprint "RF_Module:ESP32-S3-WROOM-1"
 		(layer "F.Cu")
 		(uuid "113c8473-4002-436f-8b04-bc2c675e26c1")
-		(at 49.25 39.26)
+		(at 49.5 44.15)
 		(descr "2.4 GHz Wi-Fi and Bluetooth module  https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf")
 		(tags "2.4 GHz Wi-Fi and Bluetooth module")
 		(property "Reference" "U1"
@@ -561,7 +561,7 @@
 			(at -8.75 8.71)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO8-Pad12)")
+			(net "Net-(U1-IO8)")
 			(pinfunction "IO8_12")
 			(pintype "bidirectional")
 			(uuid "9a5e7a7f-07a7-42b2-b2a6-fa99749a860f")
@@ -606,7 +606,7 @@
 			(at -4.445 12.5 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO9-Pad17)")
+			(net "Net-(U1-IO9)")
 			(pinfunction "IO9_17")
 			(pintype "bidirectional")
 			(uuid "6a718720-568a-4898-acbb-69c7cd08f209")
@@ -1011,7 +1011,7 @@
 			)
 			(polygon
 				(pts
-					(xy 25.25 32.51) (xy 73.25 32.51) (xy 73.25 11.51) (xy 25.25 11.51)
+					(xy 25.5 37.4) (xy 73.5 37.4) (xy 73.5 16.4) (xy 25.5 16.4)
 				)
 			)
 		)
