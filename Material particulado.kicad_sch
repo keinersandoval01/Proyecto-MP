@@ -590,195 +590,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2337,22 +2148,10 @@
 		(uuid "810fe8be-dc47-44f9-8724-2745e4cb61d8")
 	)
 	(junction
-		(at 62.23 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "851c8c25-7d6f-492d-8b22-bfea4a128f10")
-	)
-	(junction
 		(at 124.46 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ddb6ba9-9aab-442e-b65c-b6880ec01658")
-	)
-	(junction
-		(at 50.8 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6fee1b8-5838-4bd8-add4-d4d508e8e19c")
 	)
 	(junction
 		(at 118.11 38.1)
@@ -2377,12 +2176,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb154b0d-ee81-48af-9d45-d8d651bfcfc7")
-	)
-	(junction
-		(at 104.14 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe70faf7-abb4-4545-9252-747d63e9f715")
 	)
 	(wire
 		(pts
@@ -2516,16 +2309,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 50.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f78c266-c5cb-4457-a894-8c7202afa3a0")
-	)
-	(wire
-		(pts
 			(xy 104.14 90.17) (xy 104.14 95.25)
 		)
 		(stroke
@@ -2616,13 +2399,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 106.68) (xy 95.25 90.17)
+			(xy 50.8 36.83) (xy 50.8 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7159b4e0-1eeb-40fd-a389-b3245f122692")
+		(uuid "7b8aa2c5-da60-4ed4-a653-08be8ec48f8b")
 	)
 	(wire
 		(pts
@@ -2643,16 +2426,6 @@
 			(type default)
 		)
 		(uuid "7f4199a4-87ed-4ec2-89ef-cb725203a604")
-	)
-	(wire
-		(pts
-			(xy 62.23 106.68) (xy 95.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853a9a9e-aa3c-4de6-bd2f-f790472fd362")
 	)
 	(wire
 		(pts
@@ -2746,26 +2519,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 104.14 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c992e1-df89-46d2-9206-ae6f6f4d4f9d")
-	)
-	(wire
-		(pts
-			(xy 50.8 38.1) (xy 104.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3f5c00-5d92-4538-b1ae-a0a5a3c9cbc7")
-	)
-	(wire
-		(pts
 			(xy 104.14 90.17) (xy 118.11 90.17)
 		)
 		(stroke
@@ -2813,16 +2566,6 @@
 			(type default)
 		)
 		(uuid "d5a21eab-5ad5-42f5-b8ec-ef17c8c4f00c")
-	)
-	(wire
-		(pts
-			(xy 50.8 38.1) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dadda9ce-25c7-4f46-a84a-85298a99f7d1")
 	)
 	(wire
 		(pts
@@ -3402,88 +3145,6 @@
 			(project "Material particulado"
 				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d41ebb8-2fd6-4bb0-8f54-eee9896def5c")
-		(property "Reference" "R5"
-			(at 166.37 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 166.37 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 164.846 91.694 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 163.83 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b1298c1-c08b-4fcf-93c0-5be8f8dac886")
-		)
-		(pin "1"
-			(uuid "df647a9b-d92c-4c7f-9057-ee73a5cbf264")
-		)
-		(instances
-			(project "Material particulado"
-				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
-					(reference "R5")
 					(unit 1)
 				)
 			)
