@@ -1,14 +1,73 @@
-Actualizar símbolo R5 de 'Device:R_US' a 'Device:R_US': OK
-Actualizar símbolo U5 de 'pantalla huella:Oled_0.96' a 'pantalla huella:Oled_0.96': OK
-Actualizar símbolo U4 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
-Actualizar símbolo #PWR01 de 'power:GNDREF' a 'power:GNDREF': OK
-Actualizar símbolo R1 de 'Device:R' a 'Device:R': OK
-Actualizar símbolo U4 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
-Actualizar símbolo C1 de 'Device:C' a 'Device:C': OK
-Actualizar símbolo U2 de 'Sensor_Temperature:LM35-D' a 'Sensor_Temperature:LM35-D': OK
-Actualizar símbolo R4 de 'Device:R' a 'Device:R': OK
-Actualizar símbolo U3 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
-Actualizar símbolo R2 de 'Device:R' a 'Device:R': OK
-Actualizar símbolo R3 de 'Device:R' a 'Device:R': OK
-Actualizar símbolo U1 de 'RF_Module:ESP32-S3-WROOM-1' a 'RF_Module:ESP32-S3-WROOM-1': OK
-Actualizar símbolo U3 de 'Amplifier_Operational:LM358_DFN' a 'Amplifier_Operational:LM358_DFN': OK
+Info: Procesando el símbolo 'J1:'.
+Info: Procesando el símbolo 'U4:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Procesando el símbolo 'P1:'.
+Info: Procesando el símbolo 'U3:Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm'.
+Info: Procesando el símbolo 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Procesando el símbolo 'U2:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Procesando el símbolo 'U1:RF_Module:ESP32-S3-WROOM-1'.
+Info: Procesando el símbolo 'R2:Resistor_SMD:R_0805_2012Metric'.
+Info: Procesando el símbolo 'U5:0.96huella:Sin título'.
+R1 pin 2 reconectado de GNDREF a GND.
+R2 pin 2 reconectado de GNDREF a GND.
+U1 pin 1 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+Agregar red Vout(LM35).
+U1 pin 32 reconectado de Net-(U1-IO39) a Vout(LM35).
+U1 pin 41 reconectado de GNDREF a GND.
+Agregar red SCK.
+U1 pin 17 reconectado de Net-(U1-IO9) a SCK.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+Agregar red SDA.
+U1 pin 12 reconectado de Net-(U1-IO8) a SDA.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 40 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+Agregar red +3V3.
+U1 pin 2 reconectado de Net-(U1-3V3) a +3V3.
+U1 pin 41 reconectado de GNDREF a GND.
+U1 pin 41 reconectado de GNDREF a GND.
+Agregar red 32(I039).
+U2 pin 1 reconectado de Net-(U1-IO39) a 32(I039).
+Agregar red +5V.
+U2 pin 8 reconectado de Net-(U1-3V3) a +5V.
+U3 pin 8 reconectado de Net-(U1-3V3) a +5V.
+U3 pin 4 reconectado de GNDREF a GND.
+Agregar red Salida.
+U3 pin 1 reconectado de Net-(U4A-+) a Salida.
+Agregado U4 (huella 'Package_TO_SOT_SMD:SOT-223-3_TabPin2').
+Indicador de referencia cambiado de REF** a U4.
+Valor U4 cambiado de SOT-223-3_TabPin2 a Regulador de 5v a 3.3v.
+Asociación de símbolos U4 actualizada de  a /64c39443-0971-40a1-8d5e-7b078306e455.
+Actualizar campos U4.
+Se actualizó el nombre de la hoja U4 a '/'.
+Se actualizó el archivo de hoja U4 a 'Material particulado.kicad_sch'.
+Se actualizaron los filtros de huella de U4 a 'SOT?223*TabPin2*'.
+U4 pin 2 conectado a +3V3.
+U4 pin 3 conectado a +5V.
+U4 pin 1 conectado a GND.
+U4 pin 2 conectado a +3V3.
+Se actualizaron los metadatos de unidad de U4.
+Agregar red GND.
+U5 pin 2 reconectado de Net-(U1-3V3) a +3V3.
+Agregar red 17(I09).
+U5 pin 3 reconectado de Net-(U1-IO9) a 17(I09).
+U5 pin 1 reconectado de GNDREF a GND.
+Agregar red 12(I08).
+U5 pin 4 reconectado de Net-(U1-IO8) a 12(I08).
+Red no utilizada Net-(U1-IO39) eliminada.
+Red no utilizada Net-(U1-IO8) eliminada.
+Red no utilizada Net-(U1-IO9) eliminada.
+Aviso: No se encontró red para el componente U3 pad 5 (no hay pin 5 en el símbolo).
+Aviso: No se encontró red para el componente U3 pad 6 (no hay pin 6 en el símbolo).
+Aviso: No se encontró red para el componente U3 pad 7 (no hay pin 7 en el símbolo).
+Error: No puede agregarse J1 (no se ha asignado huella).
+Error: No puede agregarse P1 (no se ha asignado huella).
+
+
+Info: Número de avisos: 3, errores: 2.

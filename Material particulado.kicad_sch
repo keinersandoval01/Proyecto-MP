@@ -295,7 +295,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x06"
+		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -306,7 +306,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -315,8 +315,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -347,7 +347,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -380,28 +380,16 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x06_1_1"
+			(symbol "Screw_Terminal_01x04_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 5.4102) (xy 0.3302 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -443,30 +431,6 @@
 				(polyline
 					(pts
 						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 5.588) (xy 0.508 4.7498)
 					)
 					(stroke
 						(width 0.1524)
@@ -524,29 +488,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 2.54)
 					(radius 0.635)
@@ -591,19 +532,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -621,7 +551,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -639,7 +569,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -657,7 +587,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -667,42 +597,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3456,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a5bd4f-5431-45e3-8a6f-3528e6f423c8")
+	)
+	(wire
+		(pts
 			(xy 104.14 41.91) (xy 104.14 48.26)
 		)
 		(stroke
@@ -3473,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "734aa476-27b7-4582-98fc-a2db99432f14")
+	)
+	(wire
+		(pts
+			(xy 133.35 30.48) (xy 129.54 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2518a3-663c-45d9-8609-b5ad619823a8")
 	)
 	(wire
 		(pts
@@ -3566,6 +3480,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 25.4) (xy 133.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f23a06-db07-4a5c-bae5-94aa028dd118")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 133.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90554c3-df92-4f01-83de-a2140ec1314a")
+	)
+	(wire
+		(pts
 			(xy 175.26 60.96) (xy 175.26 63.5)
 		)
 		(stroke
@@ -3586,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 55.88) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d829f3bd-eda9-4fd8-a3a4-0f47b7d2707f")
+	)
+	(wire
+		(pts
 			(xy 50.8 46.99) (xy 50.8 50.8)
 		)
 		(stroke
@@ -3603,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "df267c57-2e21-4db9-98bd-6c66f139bf76")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 133.35 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e464414a-f902-4a81-90f4-6d954933fcc7")
 	)
 	(wire
 		(pts
@@ -3645,6 +3599,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "TX(D0)"
+		(shape input)
+		(at 129.54 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16a777cd-822f-4c93-92a9-2de3deb028c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2048 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3733,6 +3711,78 @@
 		(uuid "7c81fbba-53ba-4462-931a-3ea11419fbd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.2053 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TX(PMS)"
+		(shape input)
+		(at 68.58 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b09b4609-fa2a-4183-9ba4-29a0ed644081")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.3666 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX(PMS)"
+		(shape input)
+		(at 68.58 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdcde630-5603-4025-b725-87e646a76f11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.669 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX(D0)"
+		(shape input)
+		(at 129.54 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d11c8b37-e0d1-4617-b386-d5b5c59416b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9024 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,6 +3915,163 @@
 			(project "Material particulado"
 				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "137afd6c-af24-4ff8-97c9-dc385e354908")
+		(property "Reference" "#PWR016"
+			(at 127 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56eacae2-f637-4a68-b3cf-caab2b4cfe64")
+		)
+		(instances
+			(project "Material particulado"
+				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 27.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171d35a5-3dee-4a76-bd66-6a4283294b59")
+		(property "Reference" "#PWR017"
+			(at 120.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a31c14e-f0de-4dfc-916e-3de03cacd105")
+		)
+		(instances
+			(project "Material particulado"
+				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4128,6 +4335,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 138.43 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2943718f-1248-45fa-82bb-541f8ac1fe7b")
+		(property "Reference" "J1"
+			(at 140.97 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMS"
+			(at 140.97 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-2,5-V-SMD_1x04-1MP_P2.50mm_Vertical"
+			(at 138.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4678866-58fc-49a5-aed5-dd1ee6d5d46d")
+		)
+		(pin "4"
+			(uuid "cb812f11-3dd8-4092-9b0e-436d5b1d2dcb")
+		)
+		(pin "1"
+			(uuid "54dd110e-7fed-4b8c-96c5-f93fb46853a5")
+		)
+		(pin "3"
+			(uuid "311a6f08-0d00-4a47-aec3-e481e7f0adaf")
+		)
+		(instances
+			(project "Material particulado"
+				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pantalla huella:Oled_0.96")
 		(at 22.86 27.94 0)
 		(unit 1)
@@ -4139,7 +4434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a8ac3a0-8778-4acc-b996-cb9831eb6819")
-		(property "Reference" "U5"
+		(property "Reference" "Oled1"
 			(at 18.415 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.96huella:Sin título"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-2,5-V-SMD_1x04-1MP_P2.50mm_Vertical"
 			(at 22.86 27.94 0)
 			(hide yes)
 			(show_name yes)
@@ -4207,7 +4502,7 @@
 		(instances
 			(project "Material particulado"
 				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
-					(reference "U5")
+					(reference "Oled1")
 					(unit 1)
 				)
 			)
@@ -4718,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Plug_ShenzhenJingTuoJin_918-118A2021Y40002_Vertical"
 			(at 179.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5829,100 +6124,6 @@
 			(project "Material particulado"
 				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 127 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff074b44-3de7-47fc-85bf-59c48acd37be")
-		(property "Reference" "J1"
-			(at 129.54 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "pms"
-			(at 129.54 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "d125f625-448e-43ef-a7b6-647b7ffb6e6b")
-		)
-		(pin "3"
-			(uuid "5591de02-0faf-4d2a-8566-667ca8ada773")
-		)
-		(pin "4"
-			(uuid "9ca49bc9-c11f-4cce-9f0d-2b5ce03f9f1c")
-		)
-		(pin "1"
-			(uuid "b0c9607b-3aad-411c-b1dc-2b737cfb3ae1")
-		)
-		(pin "5"
-			(uuid "98d1cff5-12cf-4efe-8c82-9cb1187d9709")
-		)
-		(pin "2"
-			(uuid "b2597c9c-7024-4a02-b6e1-7d85332198a2")
-		)
-		(instances
-			(project "Material particulado"
-				(path "/afc7c7c8-0489-473c-810c-6c8b74730196"
-					(reference "J1")
 					(unit 1)
 				)
 			)
